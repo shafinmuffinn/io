@@ -65,10 +65,10 @@ h1{
         font-size: 2rem;
     }
     .skills-projects{
-        border: solid darkgrey 5px;
+        border: solid #ECDFCC 3px;
         max-width: 23rem;
-        border-radius: 1rem;
-        padding:2rem 4rem;
+        border-radius: 2rem;
+        padding:1rem 3rem;
     }
     #bio{
         font-weight: 250;
