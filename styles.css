@@ -31,7 +31,6 @@ h1{
 #name{
     color:#EEEEEE;
 }
-@media (min-width:1000px){
     body{
         background-color: #151515;
     }
@@ -76,47 +75,6 @@ h1{
     }
   
 }
-@media (max-width:999px) and (min-width:501px){
-    body{
-    background-color: blue;
-}
-
-.top{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 6rem;
-    padding: 0 5rem;
-    align-items: flex-start;
-
-}
-.name-text{
-    justify-content: flex-start;
-}
-.middle{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 5rem;
-    padding: 0 4rem;
-}
-}
-@media (max-width:500px){
-    body{
-        background-color: grey;
-}
-    .name-text{
-        display: flex;
-        justify-content: flex-start;
-        margin-top: 6rem;
-    }
-    .bio-class{
-        text-align: end;
-    }
-
-}
-
-
 
 .header{
     display: flex;
