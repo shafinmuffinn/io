@@ -5,11 +5,24 @@ html{
         font-style: normal;
       
 }
+h3{
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.name-text {
+    font-size: 1.5rem;
+}
 #bio{
     color: #ECDFCC; 
 }
 ul{
     color: #ECDFCC;
+}
+li{
+    font-weight: 250;
+    font-size: 1.3rem;
 }
 h1{
     color: #ECDFCC;
@@ -18,36 +31,135 @@ h1{
 #name{
     color:#EEEEEE;
 }
-.container{
-    display:flex;
-   justify-content: center;
-   height: 80vh;
-   align-items: space-around;
-   gap: 2rem;
-    padding: 3rem;
-   flex-shrink: 1;
+@media (min-width:1000px){
+    body{
+        background-color: #151515;
+    }
+    .container{
+        display:flex;
+       justify-content: center;
+       height: 80vh;
+       align-items: center;
+       gap: 2rem;
+    
+
+    }
+    .top{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10rem;
+        margin-top: 1rem;
+        padding: 0 5rem;
+    
+    }
+    .middle{
+        display: flex;
+        justify-content: center;
+        gap:6rem;
+        margin-top: 3rem;
+        padding: 0 7rem;
+
+    }
+    .skills-projects h2{
+        font-weight: 300;
+        font-size: 2rem;
+    }
+    .skills-projects{
+        border: solid darkgrey 5px;
+        max-width: 23rem;
+        border-radius: 1rem;
+        padding:2rem 4rem;
+    }
+    #bio{
+        font-weight: 250;
+    }
+  
 }
-.web{
-    border: solid 5px black;
-    border-radius: 1rem;
-    padding: 1rem;
-    max-width: 14rem;
+@media (max-width:999px) and (min-width:501px){
+    body{
+    background-color: blue;
 }
-.web h2{
-    text-align: center;
-}
+
 .top{
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: space-between;
     margin-top: 6rem;
     padding: 0 5rem;
+    align-items: flex-start;
 
+}
+.name-text{
+    justify-content: flex-start;
 }
 .middle{
     display: flex;
     justify-content: space-between;
-    margin-top: 10rem;
-    padding: 0 7rem;
+    margin-top: 5rem;
+    padding: 0 4rem;
 }
+}
+@media (max-width:500px){
+    body{
+        background-color: grey;
+}
+    .name-text{
+        display: flex;
+        justify-content: flex-start;
+        margin-top: 6rem;
+    }
+    .bio-class{
+        text-align: end;
+    }
+
+}
+
+
+
+.header{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 6rem 5rem 0 5rem ;
+
+}
+.social-header{
+    display: flex;
+    justify-content: flex-end;
+    height:50px;
+    gap:1rem;
+    padding-right: 4rem;
+}
+button{
+    background-repeat: no-repeat;
+    width: 50px; 
+    border:0;
+    background-color: #151515;
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.home-button, .contact-button{
+    font-size:2rem;
+    color:#ECDFCC;
+    width: inherit;
+}
+.contact-button{
+    text-align: end;
+}
+.fb-button{
+    background-image:url(./assets/facebook.png);
+
+}
+.insta-button{
+    background-image:url(./assets/instagram.png);
+}
+.linkedin-button{
+    background-image:url(./assets/linkedin.png);
+}
+
+
 

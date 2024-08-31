@@ -12,21 +12,28 @@
         h2{
             color:#EEEEEE;
         }
-        body{
-            background-color: #151515;
-        }
+        
     </style>
 </head>
 <body>
+    <div class="header">
+        <button class="home-button">Home</button>
+        <button class=contact-button onclick="location.href='contact.html'">Contact</button>
+    </div>
+    <div class="social-header">
+        <button onclick="window.open('https://www.facebook.com/shafinislam.2002/', '_blank')" class="fb-button"></button>
+        <button onclick="window.open('https://www.instagram.com/shafinmuffinn/', '_blank')"class="insta-button"></button>
+        <button onclick="window.open('https://www.linkedin.com/in/shafinislam/', '_blank')"class="linkedin-button"></button>
+    </div>
     <div class="top">
-        <div><h1>Hi I'm,<br><span id="name">Shafin</span> Islam</h1></div>
-        <div>
+        <div class="name-text"><h1>Hi I'm,<br><span id="name">Shafin</span> Islam</h1></div>
+        <div class="bio-class">
             <h2 id="bio">A Computer Science Student<br><span id="name">@ BRAC University</span></h2>
         </div>
     </div>
 
     <div class="middle">
-        <div class="skills">
+        <div class="skills-projects">
             <h2>Skills</h2>
             <ul>
                 <li>Python, Javascript</li>
@@ -35,7 +42,7 @@
             </ul>
         
         </div>
-        <div class="projects">
+        <div class="skills-projects">
             <h2>Projects</h2>
             <ul>
                 <li>Pomodoro Timer App made with Python</li>
@@ -46,35 +53,11 @@
                 <li>Real time finger counting with webcam</li>
 
             </ul>
+            
         </div>
 
 
     </div>
-    <!-- <div class="container">
-        <div class="web">
-            <h2>Currently messing with web development</h2>
-            <ul>
-                <li>django</li>
-                <li>react.js, node.js</li>
-                <li>postgresql</li>
-            </ul>
-        </div>
-        <div class="web">
-            <h2>Learning about Generative AI</h2>
-            <ul>
-                <li>django</li>
-                <li>react.js, node.js</li>
-                <li>postgresql</li>
-            </ul>
-        </div>
-        <div class="web">
-            <h2>currently messing with web development</h2>
-            <ul>
-                <li>django</li>
-                <li>react.js, node.js</li>
-                <li>postgresql</li>
-            </ul>
-        </div> -->
     </div>
 </body>
 </html>
